@@ -16,15 +16,29 @@
 - AWS CLI configration for terraform AWS provider
 
 ## Understanding AWS services
-- EC2
-- VPC (IGW, RouteTable, Subnet, SecurityGroup etc.,)
-- S3
-- Key
+**These AWS services below will be create using terraform. So we need to understand on how to handle the services in different scenarios manually and then autmate the process.**
+- AWS EC2
+- AWS VPC (IGW, RouteTable, Subnet, SecurityGroup etc.,)
+- AWS S3 Bucket
+- Key Management
 - IAM
 - EBS
 - AMI
 - ELB
 - ASG
+- AWS Block Storage
+
+## Understanding Azure services
+**These Azure services below will be create using terraform. So we need to understand on how to handle the services in different scenarios manually and then autmate the process.**
+- Azure Virtual Machines
+- VirtaulNetwork
+- Azure Disk
+- Azure Files
+- Azure Containers Instances
+- Azure Container Registry
+- Aure Kubernetes
+- Azure Database for MySQL
+- Azure LoadBalancer
 
 ## Terraform basic commands and HCL syntax
 - terraform commands
@@ -119,6 +133,8 @@ Dependency Lock File Importance
 - State Import
 
 ## Terraform Graph
+- Online Graphviz viewers
+- Offline Graphviz installer
 
 ## Terraform Expressions
 - Dynamic Expressions
