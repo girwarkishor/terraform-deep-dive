@@ -12,8 +12,8 @@
 - Windows
 
 ## AWS account creation and AWS CLI setup
-- AWS acoount creation and access setup
-- AWS CLI configration for terraform AWS provider
+- AWS acoount creation and access setup. [AWS Free Trail](https://aws.amazon.com/free/free-tier/)
+- AWS CLI configration for terraform AWS provider. [CLI setup and Configure](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 
 ## Understanding AWS services
 **These AWS services below will be create using terraform. So we need to understand on how to handle the services in different scenarios manually and then autmate the process.**
@@ -27,6 +27,10 @@
 - ELB
 - ASG
 - AWS Block Storage
+
+## Azure account creation and CLI setup/Configure
+- Microsoft Azure Free Trail account. [Azure Free trail](https://azure.microsoft.com/en-in/free/)
+- Azure CLI setup and Configure. [CLI setup and configure](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 ## Understanding Azure services
 **These Azure services below will be create using terraform. So we need to understand on how to handle the services in different scenarios manually and then autmate the process.**
